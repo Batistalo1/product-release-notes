@@ -1,0 +1,10 @@
+site_name: Product Release Notes
+
+nav:
+  - Accueil: index.md
+  - Releases:
+      - Version 1.1: releases/v1.1.md
+      - Version 1.0: releases/v1.0.md
+
+theme:
+  name: material
