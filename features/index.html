@@ -9,26 +9,28 @@
       
       
       
+        <link rel="prev" href="../versions/v22.12/">
       
-        <link rel="next" href="versions/">
+      
+        <link rel="next" href="../known-issues/">
       
       
         
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
     
     
       
-        <title>DOMController Release Notes</title>
+        <title>Features - DOMController Release Notes</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -47,9 +49,9 @@
       
     
     
-      <link rel="stylesheet" href="stylesheets/extra.css">
+      <link rel="stylesheet" href="../stylesheets/extra.css">
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -74,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#domcontroller-release-notes" class="md-skip">
+        <a href="#features" class="md-skip">
           Skip to content
         </a>
       
@@ -88,7 +90,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="DOMController Release Notes" class="md-header__button md-logo" aria-label="DOMController Release Notes" data-md-component="logo">
+    <a href=".." title="DOMController Release Notes" class="md-header__button md-logo" aria-label="DOMController Release Notes" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -108,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Features
             
           </span>
         </div>
@@ -207,11 +209,9 @@
   
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="." class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
         
   
   
@@ -232,7 +232,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="versions/" class="md-tabs__link">
+        <a href="../versions/" class="md-tabs__link">
           
   
   
@@ -248,9 +248,11 @@
   
   
   
+    
   
-    <li class="md-tabs__item">
-      <a href="features/" class="md-tabs__link">
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
         
   
   
@@ -269,7 +271,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="known-issues/" class="md-tabs__link">
+      <a href="../known-issues/" class="md-tabs__link">
         
   
   
@@ -304,7 +306,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="DOMController Release Notes" class="md-nav__button md-logo" aria-label="DOMController Release Notes" data-md-component="logo">
+    <a href=".." title="DOMController Release Notes" class="md-nav__button md-logo" aria-label="DOMController Release Notes" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -319,37 +321,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Home
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
         
   
   
@@ -365,54 +340,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#latest-version" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Latest Version
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Latest Version">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#version-2504-december-2025-api-v32" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Version 25.04 — December 2025 · API v32
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -476,7 +403,7 @@
   
   
     <li class="md-nav__item">
-      <a href="versions/" class="md-nav__link">
+      <a href="../versions/" class="md-nav__link">
         
   
   
@@ -504,7 +431,7 @@
   
   
     <li class="md-nav__item">
-      <a href="versions/v25.04/" class="md-nav__link">
+      <a href="../versions/v25.04/" class="md-nav__link">
         
   
   
@@ -532,7 +459,7 @@
   
   
     <li class="md-nav__item">
-      <a href="versions/v25.03/" class="md-nav__link">
+      <a href="../versions/v25.03/" class="md-nav__link">
         
   
   
@@ -560,7 +487,7 @@
   
   
     <li class="md-nav__item">
-      <a href="versions/v25.02/" class="md-nav__link">
+      <a href="../versions/v25.02/" class="md-nav__link">
         
   
   
@@ -588,7 +515,7 @@
   
   
     <li class="md-nav__item">
-      <a href="versions/v25.01.00/" class="md-nav__link">
+      <a href="../versions/v25.01.00/" class="md-nav__link">
         
   
   
@@ -616,7 +543,7 @@
   
   
     <li class="md-nav__item">
-      <a href="versions/v24.10/" class="md-nav__link">
+      <a href="../versions/v24.10/" class="md-nav__link">
         
   
   
@@ -644,7 +571,7 @@
   
   
     <li class="md-nav__item">
-      <a href="versions/v24.07/" class="md-nav__link">
+      <a href="../versions/v24.07/" class="md-nav__link">
         
   
   
@@ -672,7 +599,7 @@
   
   
     <li class="md-nav__item">
-      <a href="versions/v24.04/" class="md-nav__link">
+      <a href="../versions/v24.04/" class="md-nav__link">
         
   
   
@@ -700,7 +627,7 @@
   
   
     <li class="md-nav__item">
-      <a href="versions/v24.01/" class="md-nav__link">
+      <a href="../versions/v24.01/" class="md-nav__link">
         
   
   
@@ -728,7 +655,7 @@
   
   
     <li class="md-nav__item">
-      <a href="versions/v23.10/" class="md-nav__link">
+      <a href="../versions/v23.10/" class="md-nav__link">
         
   
   
@@ -756,7 +683,7 @@
   
   
     <li class="md-nav__item">
-      <a href="versions/v23.07/" class="md-nav__link">
+      <a href="../versions/v23.07/" class="md-nav__link">
         
   
   
@@ -784,7 +711,7 @@
   
   
     <li class="md-nav__item">
-      <a href="versions/v23.03/" class="md-nav__link">
+      <a href="../versions/v23.03/" class="md-nav__link">
         
   
   
@@ -812,7 +739,7 @@
   
   
     <li class="md-nav__item">
-      <a href="versions/v22.12/" class="md-nav__link">
+      <a href="../versions/v22.12/" class="md-nav__link">
         
   
   
@@ -844,10 +771,37 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="features/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Features
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -863,6 +817,81 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#access-credentials" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Access &amp; Credentials
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#doors-devices" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Doors &amp; Devices
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#api-connectivity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        API &amp; Connectivity
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#synchronization-schedules" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Synchronization &amp; Schedules
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#backup-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Backup &amp; System
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -874,7 +903,7 @@
   
   
     <li class="md-nav__item">
-      <a href="known-issues/" class="md-nav__link">
+      <a href="../known-issues/" class="md-nav__link">
         
   
   
@@ -921,30 +950,57 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#latest-version" class="md-nav__link">
+  <a href="#access-credentials" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Latest Version
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Latest Version">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#version-2504-december-2025-api-v32" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Version 25.04 — December 2025 · API v32
+        Access &amp; Credentials
       
     </span>
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#doors-devices" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Doors &amp; Devices
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#api-connectivity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        API &amp; Connectivity
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#synchronization-schedules" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Synchronization &amp; Schedules
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#backup-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Backup &amp; System
+      
+    </span>
+  </a>
   
 </li>
       
@@ -965,24 +1021,268 @@
 
 
 
-<h1 id="domcontroller-release-notes">DOMController — Release Notes</h1>
-<p>Welcome to the DOMController documentation portal.</p>
-<p>Find here all the information you need to follow the evolution of the system:</p>
-<ul>
-<li><a href="versions/"><strong>Versions</strong></a> — Complete release history with detailed changelogs</li>
-<li><a href="features/"><strong>Features</strong></a> — Feature catalogue and the versions in which they are available</li>
-<li><a href="known-issues/"><strong>Known Issues</strong></a> — Known problems, workarounds and fix status</li>
-</ul>
+<h1 id="features">Features</h1>
+<p>Catalogue of all DOMController features, with the versions in which they are available.</p>
 <hr />
-<h2 id="latest-version">Latest Version</h2>
-<h3 id="version-2504-december-2025-api-v32"><a href="versions/v25.04/">Version 25.04</a> — December 2025 · API v32</h3>
-<p><span class="badge badge-latest">LATEST</span></p>
-<ul>
-<li>Improved DOMController performances when handling a large number of online devices</li>
-<li>Credential size can now be specified to the system, with automatic padding and trimming handling</li>
-<li>New API endpoints for configuring multiple OSS doors and devices at once</li>
-<li>Log file size can be customized (duration and volume)</li>
-</ul>
+<h2 id="access-credentials">Access &amp; Credentials</h2>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Configurable credential size</td>
+<td>Credential size can be specified to the system with automatic padding and trimming handling</td>
+<td><a href="../versions/v25.04/">25.04</a></td>
+</tr>
+<tr>
+<td>Hybrid card support</td>
+<td>Select which technology must be used for hybrid cards (global configuration)</td>
+<td><a href="../versions/v25.01.00/">25.01.00</a></td>
+</tr>
+<tr>
+<td>OSS Creator</td>
+<td>Create OSS application data structure on a virgin Desfire transponder</td>
+<td><a href="../versions/v23.10/">23.10</a></td>
+</tr>
+<tr>
+<td>OSS dynamic validity</td>
+<td>Set OSS dynamic validity in weeks, months or years</td>
+<td><a href="../versions/v25.02/">25.02</a></td>
+</tr>
+<tr>
+<td>OSS custom key numbers</td>
+<td>Assign different key numbers when configuring OSS (out of standard)</td>
+<td><a href="../versions/v25.02/">25.02</a></td>
+</tr>
+<tr>
+<td>Permissions per access group</td>
+<td>Assign permissions to access groups, each with its own opening delay</td>
+<td><a href="../versions/v23.10/">23.10</a></td>
+</tr>
+<tr>
+<td>Special cards</td>
+<td>Emergency and Master Key tags on special cards</td>
+<td><a href="../versions/v24.04/">24.04</a></td>
+</tr>
+<tr>
+<td>OSS Intervention mode</td>
+<td>Create OSS credentials with Intervention mode</td>
+<td><a href="../versions/v24.04/">24.04</a></td>
+</tr>
+<tr>
+<td>OSS toggle mode (double tap)</td>
+<td>Transponder must be shown twice to switch to permanently open</td>
+<td><a href="../versions/v23.10/">23.10</a></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="doors-devices">Doors &amp; Devices</h2>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Door abstraction</td>
+<td>Create a door without a coupled device and preconfigure it</td>
+<td><a href="../versions/v25.03/">25.03</a></td>
+</tr>
+<tr>
+<td>Auto-coupling</td>
+<td>Automatic coupling of devices upon discovery</td>
+<td><a href="../versions/v24.10/">24.10</a></td>
+</tr>
+<tr>
+<td>Factory reset</td>
+<td>Reset a controller to factory settings</td>
+<td><a href="../versions/v24.07/">24.07</a></td>
+</tr>
+<tr>
+<td>Office function per permission</td>
+<td>Office function can be assigned to individual permissions</td>
+<td><a href="../versions/v24.07/">24.07</a></td>
+</tr>
+<tr>
+<td>PackId global config</td>
+<td>PackId configuration defined globally at site level (override per door still available)</td>
+<td><a href="../versions/v25.02/">25.02</a></td>
+</tr>
+<tr>
+<td>Multi-OSS door config</td>
+<td>New endpoint to configure several OSS doors at once</td>
+<td><a href="../versions/v25.04/">25.04</a></td>
+</tr>
+<tr>
+<td>Multi-device config</td>
+<td>New endpoint to configure several device configurations at once</td>
+<td><a href="../versions/v25.04/">25.04</a></td>
+</tr>
+<tr>
+<td>Per-device schedules</td>
+<td>Week/day schedules configurable per device instead of system-wide</td>
+<td><a href="../versions/v25.02/">25.02</a></td>
+</tr>
+<tr>
+<td>OSS transponder read/write timeout</td>
+<td>Configurable read/write timeout for transponders via OSS Updater</td>
+<td><a href="../versions/v25.02/">25.02</a></td>
+</tr>
+<tr>
+<td>Feature list per device</td>
+<td>List all available features per device with enabled/disabled flag</td>
+<td><a href="../versions/v25.01.00/">25.01.00</a> · <a href="../versions/v25.03/">25.03</a></td>
+</tr>
+<tr>
+<td>DOM Online Mesh support</td>
+<td>Official support for DOM Online Mesh products</td>
+<td><a href="../versions/v25.02/">25.02</a></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="api-connectivity">API &amp; Connectivity</h2>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Global multi-device orders</td>
+<td>Global route to send orders to several devices at once</td>
+<td><a href="../versions/v25.01.00/">25.01.00</a></td>
+</tr>
+<tr>
+<td>OSS transponder last update time</td>
+<td>Last updated time of an OSS transponder available via API</td>
+<td><a href="../versions/v25.04/">25.04</a> · <a href="../versions/v25.03/">25.03</a></td>
+</tr>
+<tr>
+<td>API-based DOMController update</td>
+<td>Update DOMController via API instead of SSH (fallback mode)</td>
+<td><a href="../versions/v25.02/">25.02</a></td>
+</tr>
+<tr>
+<td>WebSocket connection limit</td>
+<td>Limited to 10 simultaneous WebSocket connections, error 429 beyond</td>
+<td><a href="../versions/v25.02/">25.02</a></td>
+</tr>
+<tr>
+<td>OSS events WebSocket</td>
+<td>Dedicated OSS event route and WebSocket</td>
+<td><a href="../versions/v23.07/">23.07</a></td>
+</tr>
+<tr>
+<td>Certificate chain support</td>
+<td>Support for certificates with full authority certification chain</td>
+<td><a href="../versions/v25.03/">25.03</a></td>
+</tr>
+<tr>
+<td>OS &amp; packages version via API</td>
+<td>List OS version and main package versions through the API</td>
+<td><a href="../versions/v25.01.00/">25.01.00</a></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="synchronization-schedules">Synchronization &amp; Schedules</h2>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fast Online Synchronization</td>
+<td>Reduce sync time from 15 min to 10 sec</td>
+<td><a href="../versions/v23.03/">23.03</a></td>
+</tr>
+<tr>
+<td>Schedule isolation</td>
+<td>Changes only impact devices referring to the modified schedule</td>
+<td><a href="../versions/v23.03/">23.03</a> · <a href="../versions/v23.07/">23.07</a></td>
+</tr>
+<tr>
+<td>DOMService device filter</td>
+<td>Filter synchronized devices in DOM Service app</td>
+<td><a href="../versions/v24.01/">24.01</a></td>
+</tr>
+<tr>
+<td>Wireless+</td>
+<td>Report a transponder to the Access Control Server for access decision</td>
+<td><a href="../versions/v23.10/">23.10</a></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="backup-system">Backup &amp; System</h2>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Customizable log file size</td>
+<td>Log files' size configurable by duration and volume</td>
+<td><a href="../versions/v25.04/">25.04</a></td>
+</tr>
+<tr>
+<td>Backup with permissions &amp; OSS</td>
+<td>Optional permissions and OSS doors included in backups</td>
+<td><a href="../versions/v24.10/">24.10</a></td>
+</tr>
+<tr>
+<td>Redis in backup</td>
+<td>Redis file included in backup (offline devices preserved after restore)</td>
+<td><a href="../versions/v24.07/">24.07</a></td>
+</tr>
+<tr>
+<td>Device recovery system</td>
+<td>Recovery system to retrieve previously coupled lost devices</td>
+<td><a href="../versions/v25.01.00/">25.01.00</a></td>
+</tr>
+<tr>
+<td>PHP 8 migration</td>
+<td>Migration from PHP 7 to PHP 8</td>
+<td><a href="../versions/v24.10/">24.10</a></td>
+</tr>
+<tr>
+<td>DOMService OSS config &amp; coupling</td>
+<td>Configure OSS and coupling directly from the DOMService App</td>
+<td><a href="../versions/v24.01/">24.01</a></td>
+</tr>
+<tr>
+<td>OSS dynamic validity groups</td>
+<td>Dynamic validity groups in OSS Updater</td>
+<td><a href="../versions/v23.03/">23.03</a></td>
+</tr>
+<tr>
+<td>OSS Updater</td>
+<td>New device for updating OSS transponders, managed by DOMBridge</td>
+<td><a href="../versions/v22.12/">22.12</a></td>
+</tr>
+</tbody>
+</table>
 
 
 
@@ -1038,10 +1338,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.tabs", "navigation.top", "navigation.sections", "search.highlight", "search.suggest", "content.code.copy"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.top", "navigation.sections", "search.highlight", "search.suggest", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>

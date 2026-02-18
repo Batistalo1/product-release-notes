@@ -1,0 +1,28 @@
+/* Status badges */
+.badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-left: 8px;
+}
+.badge-latest  { background: #4caf50; color: white; }
+.badge-stable  { background: #2196f3; color: white; }
+.badge-old     { background: #9e9e9e; color: white; }
+.badge-fixed   { background: #4caf50; color: white; }
+.badge-open    { background: #f44336; color: white; }
+
+/* Version cards in list */
+.version-card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin-bottom: 12px;
+  transition: box-shadow 0.2s;
+}
+.version-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.version-card h3 { margin: 0 0 6px 0; }
+.version-card p  { margin: 0; font-size: 0.9rem; opacity: 0.75; }
