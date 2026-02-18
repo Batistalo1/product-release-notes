@@ -1,5 +1,8 @@
 site_name: DOMController Release Notes
 
+markdown_extensions:
+  - attr_list
+
 nav:
   - Home: index.md
   - Versions:
@@ -23,8 +26,8 @@ theme:
   name: material
   language: en
   custom_dir: overrides
-  logo: assets/images.png
-  favicon: assets/images.png
+  logo: https://pub-160db2afacc3470e9760e4ded03823a6.r2.dev/images/images.png
+  favicon: https://pub-160db2afacc3470e9760e4ded03823a6.r2.dev/images/images.png
   palette:
     - scheme: default
       primary: custom          
