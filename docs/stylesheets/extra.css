@@ -1,3 +1,4 @@
+/* ─── Custom brand color ─────────────────────────────── */
 :root {
   --md-primary-fg-color:        #d51130;
   --md-primary-fg-color--light: #e8314f;
@@ -5,31 +6,136 @@
   --md-primary-bg-color:        #ffffff;
 }
 
-/* ─── Video on homepage ──────────────────────────────── */
-.hero-video-wrapper {
-  width: 100%;
-  max-width: 1200px;
-  border-radius: 12px;
-  margin: 0 auto 3rem auto;
-  overflow: hidden;
-  margin-bottom: 2rem;
-  box-shadow: 0 8px 32px rgba(213, 17, 48, 0.15);
-}
-
-img.center {
-  display: block;
-  margin: 2rem auto;
-}
-
+/* ─── Agrandir le logo dans la navbar ───────────────── */
 .md-header__button.md-logo img,
 .md-header__button.md-logo svg {
   height: 2.5rem;
   width: auto;
 }
 
-.hero-video-wrapper video {
+/* ─── Supprimer le gap entre navbar et vidéo ─────────── */
+.md-main {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+.md-content {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+/* ─── Forcer le plein écran sur la homepage ─────────── */
+.md-content__inner {
+  max-width: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Restaurer le padding normal pour les autres pages */
+.md-content__inner:has(.content-section) {
+  padding: 0 !important;
+}
+
+.content-section .md-content__inner {
+  max-width: 61rem !important;
+  padding: 0 0.8rem !important;
+  margin: 0 auto !important;
+}
+
+/* ─── Hero Video Fullscreen ────────────────────────────── */
+.hero-video-fullscreen {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  margin-top: -2rem;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.hero-video-fullscreen video {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+
+/* Overlay avec texte centré */
+.hero-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 2;
   width: 100%;
+  padding: 2rem;
+  margin-top: 10rem;
+}
+
+.hero-overlay h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.hero-overlay p {
+  font-size: 1.5rem;
+  margin: 0 0 0 0;
+  opacity: 0.9;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Indicateur de scroll */
+.scroll-indicator {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  color: white;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+  animation: bounce 2s infinite;
+}
+
+.scroll-indicator:hover {
+  opacity: 1;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(10px); }
+}
+
+/* Section de contenu */
+.content-section {
+  background: var(--md-default-bg-color);
+  padding: 3rem 0.8rem;
+  max-width: 61rem;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+img.center {
   display: block;
+  margin: 2rem auto;
 }
 
 /* Status badges */

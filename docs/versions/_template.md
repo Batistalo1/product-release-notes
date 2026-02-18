@@ -32,3 +32,5 @@ Issue description here.
 ##  Download
 
 > [Download v XX.XX](#) — coming soon.
+
+---
