@@ -1,10 +1,47 @@
-site_name: Product Release Notes
+site_name: DOMController Release Notes
 
 nav:
-  - Accueil: index.md
-  - Releases:
-      - Version 1.1: releases/v1.1.md
-      - Version 1.0: releases/v1.0.md
+  - Home: index.md
+  - Versions:
+      - Overview: versions/index.md
+      - 25.04 (Dec 2025): versions/v25.04.md
+      - 25.03 (Oct 2025): versions/v25.03.md
+      - 25.02 (Jun 2025): versions/v25.02.md
+      - 25.01.00 (Apr 2025): versions/v25.01.00.md
+      - 24.10 (Oct 2024): versions/v24.10.md
+      - 24.07 (Jul 2024): versions/v24.07.md
+      - 24.04 (Apr 2024): versions/v24.04.md
+      - 24.01 (Jan 2024): versions/v24.01.md
+      - 23.10 (Oct 2023): versions/v23.10.md
+      - 23.07 (Jul 2023): versions/v23.07.md
+      - 23.03 (Mar 2023): versions/v23.03.md
+      - 22.12 (Dec 2022): versions/v22.12.md
+  - Features: features/index.md
+  - Known Issues: known-issues/index.md
 
 theme:
   name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.sections
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+
+extra_css:
+  - stylesheets/extra.css
