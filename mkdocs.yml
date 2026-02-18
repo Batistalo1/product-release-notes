@@ -2,6 +2,14 @@ site_name: DOMController Release Notes
 
 markdown_extensions:
   - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
 
 nav:
   - Home: index.md
@@ -19,7 +27,12 @@ nav:
       - 23.07 (Jul 2023): versions/v23.07.md
       - 23.03 (Mar 2023): versions/v23.03.md
       - 22.12 (Dec 2022): versions/v22.12.md
-  - Features: features/index.md
+  - Features:
+      - Overview: features/index.md
+      - OSS Creator: features/oss-creator.md
+      - Wireless+: features/wireless-plus.md
+      - Fast Online Sync: features/fast-online-sync.md
+      - OSS Dynamic Validity: features/oss-dynamic-validity.md
   - Known Issues: known-issues/index.md
 
 theme:
