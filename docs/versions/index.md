@@ -7,7 +7,7 @@ Full release history of the DOMController.
 | [**25.04**](v25.04.md) | December 2025 | v32 | <span class="badge badge-latest">LATEST</span> |
 | [25.03](v25.03.md) | October 2025 | v31 | |
 | [25.02](v25.02.md) | June 2025 | v30 | |
-| [25.01.00](v25.01.00.md) | April 2025 | v29 | |
+| [25.01](v25.01.md) | April 2025 | v29 | |
 | [24.10](v24.10.md) | October 2024 | v28 | |
 | [24.07](v24.07.md) | July 2024 | v27 | |
 | [24.04](v24.04.md) | April 2024 | v26 | |

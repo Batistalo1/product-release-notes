@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {% if page.file.src_path == "index.md" %}
+  <div class="hero-video-wrapper">
+    <video autoplay loop muted playsinline>
+      <source src="{{ 'assets/DomPresnetation.mp4' | url }}" type="video/mp4">
+    </video>
+  </div>
+  {% endif %}
+  {{ super() }}
+{% endblock %}

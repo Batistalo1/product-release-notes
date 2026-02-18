@@ -7,7 +7,7 @@ nav:
       - 25.04 (Dec 2025): versions/v25.04.md
       - 25.03 (Oct 2025): versions/v25.03.md
       - 25.02 (Jun 2025): versions/v25.02.md
-      - 25.01.00 (Apr 2025): versions/v25.01.00.md
+      - 25.01 (Apr 2025): versions/v25.01.md
       - 24.10 (Oct 2024): versions/v24.10.md
       - 24.07 (Jul 2024): versions/v24.07.md
       - 24.04 (Apr 2024): versions/v24.04.md
@@ -22,15 +22,18 @@ nav:
 theme:
   name: material
   language: en
+  custom_dir: overrides
+  logo: assets/images.png
+  favicon: assets/images.png
   palette:
     - scheme: default
-      primary: indigo
+      primary: custom          
       accent: cyan
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
-      primary: indigo
+      primary: custom
       accent: cyan
       toggle:
         icon: material/brightness-4
@@ -45,3 +48,6 @@ theme:
 
 extra_css:
   - stylesheets/extra.css
+
+extra:
+  generator: false

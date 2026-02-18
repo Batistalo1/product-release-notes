@@ -9,7 +9,7 @@ Catalogue of all DOMController features, with the versions in which they are ava
 | Feature | Description | Versions |
 |---------|-------------|----------|
 | Configurable credential size | Credential size can be specified to the system with automatic padding and trimming handling | [25.04](../versions/v25.04.md) |
-| Hybrid card support | Select which technology must be used for hybrid cards (global configuration) | [25.01.00](../versions/v25.01.00.md) |
+| Hybrid card support | Select which technology must be used for hybrid cards (global configuration) | [25.01](../versions/v25.01.md) |
 | OSS Creator | Create OSS application data structure on a virgin Desfire transponder | [23.10](../versions/v23.10.md) |
 | OSS dynamic validity | Set OSS dynamic validity in weeks, months or years | [25.02](../versions/v25.02.md) |
 | OSS custom key numbers | Assign different key numbers when configuring OSS (out of standard) | [25.02](../versions/v25.02.md) |
@@ -33,7 +33,7 @@ Catalogue of all DOMController features, with the versions in which they are ava
 | Multi-device config | New endpoint to configure several device configurations at once | [25.04](../versions/v25.04.md) |
 | Per-device schedules | Week/day schedules configurable per device instead of system-wide | [25.02](../versions/v25.02.md) |
 | OSS transponder read/write timeout | Configurable read/write timeout for transponders via OSS Updater | [25.02](../versions/v25.02.md) |
-| Feature list per device | List all available features per device with enabled/disabled flag | [25.01.00](../versions/v25.01.00.md) · [25.03](../versions/v25.03.md) |
+| Feature list per device | List all available features per device with enabled/disabled flag | [25.01](../versions/v25.01.md) · [25.03](../versions/v25.03.md) |
 | DOM Online Mesh support | Official support for DOM Online Mesh products | [25.02](../versions/v25.02.md) |
 
 ---
@@ -42,13 +42,13 @@ Catalogue of all DOMController features, with the versions in which they are ava
 
 | Feature | Description | Versions |
 |---------|-------------|----------|
-| Global multi-device orders | Global route to send orders to several devices at once | [25.01.00](../versions/v25.01.00.md) |
+| Global multi-device orders | Global route to send orders to several devices at once | [25.01](../versions/v25.01.md) |
 | OSS transponder last update time | Last updated time of an OSS transponder available via API | [25.04](../versions/v25.04.md) · [25.03](../versions/v25.03.md) |
 | API-based DOMController update | Update DOMController via API instead of SSH (fallback mode) | [25.02](../versions/v25.02.md) |
 | WebSocket connection limit | Limited to 10 simultaneous WebSocket connections, error 429 beyond | [25.02](../versions/v25.02.md) |
 | OSS events WebSocket | Dedicated OSS event route and WebSocket | [23.07](../versions/v23.07.md) |
 | Certificate chain support | Support for certificates with full authority certification chain | [25.03](../versions/v25.03.md) |
-| OS & packages version via API | List OS version and main package versions through the API | [25.01.00](../versions/v25.01.00.md) |
+| OS & packages version via API | List OS version and main package versions through the API | [25.01](../versions/v25.01.md) |
 
 ---
 
@@ -70,7 +70,7 @@ Catalogue of all DOMController features, with the versions in which they are ava
 | Customizable log file size | Log files' size configurable by duration and volume | [25.04](../versions/v25.04.md) |
 | Backup with permissions & OSS | Optional permissions and OSS doors included in backups | [24.10](../versions/v24.10.md) |
 | Redis in backup | Redis file included in backup (offline devices preserved after restore) | [24.07](../versions/v24.07.md) |
-| Device recovery system | Recovery system to retrieve previously coupled lost devices | [25.01.00](../versions/v25.01.00.md) |
+| Device recovery system | Recovery system to retrieve previously coupled lost devices | [25.01](../versions/v25.01.md) |
 | PHP 8 migration | Migration from PHP 7 to PHP 8 | [24.10](../versions/v24.10.md) |
 | DOMService OSS config & coupling | Configure OSS and coupling directly from the DOMService App | [24.01](../versions/v24.01.md) |
 | OSS dynamic validity groups | Dynamic validity groups in OSS Updater | [23.03](../versions/v23.03.md) |
