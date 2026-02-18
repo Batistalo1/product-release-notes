@@ -1,3 +1,37 @@
+:root {
+  --md-primary-fg-color:        #d51130;
+  --md-primary-fg-color--light: #e8314f;
+  --md-primary-fg-color--dark:  #a50d25;
+  --md-primary-bg-color:        #ffffff;
+}
+
+/* ─── Video on homepage ──────────────────────────────── */
+.hero-video-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  border-radius: 12px;
+  margin: 0 auto 3rem auto;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  box-shadow: 0 8px 32px rgba(213, 17, 48, 0.15);
+}
+
+img.center {
+  display: block;
+  margin: 2rem auto;
+}
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 2.5rem;
+  width: auto;
+}
+
+.hero-video-wrapper video {
+  width: 100%;
+  display: block;
+}
+
 /* Status badges */
 .badge {
   display: inline-block;
